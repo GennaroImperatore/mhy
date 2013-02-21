@@ -124,3 +124,28 @@ deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",136144893
 activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1361450476265
 deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1361450478656
 activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1361450478656
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1361450478734
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1361450510859
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1361450515515
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1361450515531
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1361450515640
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1361450534031
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1361450534062
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1361450536390
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1361450536406
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1361450536484
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1361450565843
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1361450566593
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1361450687906
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1361450713531
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1361450719046
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.export",1361450719046
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.export",1361450719046
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1361450723437
+error,log,,,"New Project Wizard failed",1361450755171
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1361450829656
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.import",1361450829671
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.import",1361450829671
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1361450832750
+error,log,,,"New Project Wizard failed",1361450852156
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1361450853859

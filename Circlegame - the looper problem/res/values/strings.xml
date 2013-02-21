@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, ShortpaperAndroidActivity!</string>
+    <string name="app_name">CircleGame 1.07</string>
+    <string name="Welcome0">The aim of this game is to tap circles on screen as fast as possible. 
+        
+    There are multiple levels of increasing difficulty and you are rewarded for tapping quickly and
+    accurately.</string>
+        
+   <string name = "Welcome1">  </string> 
+    
+    <string name= "Welcome2" > The game is part of research at the university of Strathclyde. </string> 
+    
+    <string name="OurResearch0"> We are interested in the effects of device on speed and 
+      						  on whether handedness and dominant eyes affect results.</string>
+   <string name="OurResearch1"> We will record information about your taps for our research.
+       Only your tap information will be recorded along with whether your are right/left handed, 
+       your dominant eye and your device type and serial number to distinguish you from other players. You can leave the game at any time. The data recorded up to that point will be kept.  </string>
+     
+   <string name="OurResearch2"> By continuing you agree to us using this information for our research. 
+       No personal data such as your phone number or email will be recorded. </string>
+    
+    
+    <string name="EyeTest0"> Please perform this simple test</string>
+    <string name="EyeTest1"> 1) Put your hands in front of your face with a small gap between them as shown below</string>
+    <string  name ="EyeTest2">  2) Look through the hole to a distant object </string>
+    <string  name ="EyeTest3"> 3) Shut your left eye to look through only your right eye  </string>
+    <string  name ="EyeTest4"> 4) Now swap to look only through your left eye   </string>
+    <string name="EyeTest5">5)The eye with which you still see the object is your predominant eye. If you see the object with both you have no predominant eye. </string>
+    <string name="Handedness0">I normally tap the phone with:</string>
+   
+    </resources>

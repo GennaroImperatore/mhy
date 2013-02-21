@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+ <ScrollView
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     android:id="@+id/scrollview1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+   
+    
+    <ViewFlipper
+        android:id="@+id/viewFlipper1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+<!-- 1/4 welcome -->        
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+                
+                <TextView
+                    android:id="@+id/WelcomeText0"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Welcome0"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+				<TextView
+                    android:id="@+id/WelcomeText1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Welcome1"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+                
+					<TextView
+                    android:id="@+id/WelcomeText2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Welcome2"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            </LinearLayout>
+     <!-- END OF WELCOME -->
+
+<!--2/ DATA PROTECTION - ETHICS   -->
+
+ <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+           
+        <TextView
+            android:id="@+id/ourResearch0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/OurResearch0"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+<TextView
+            android:id="@+id/ourResearch1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/OurResearch1"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+<TextView
+            android:id="@+id/ourResearch2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/OurResearch2"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+         </LinearLayout>
+
+<!-- END OF DATA PROTECTION ETHICS  -->
+       
+   <!-- HANDEDNESS  --> 
+   
+    <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+   
+   <TextView
+            android:id="@+id/handednessWelcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Handedness0"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        
+      
+        <RadioGroup
+            android:id="@+id/radioGroupHandedness"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <RadioButton
+                android:id="@+id/radioHRight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="A finger on my right hand" />
+
+            <RadioButton
+                android:id="@+id/radioHLeft"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A finger on my left hand" />
+
+            <RadioButton
+                android:id="@+id/radioHNone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No stronger preference" />
+        </RadioGroup>
+        
+      </LinearLayout>  
+        
+        <!-- END OF HANDEDNESS -->
+        
+        <!-- EYEDNESS  -->
+
+<LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+            
+        <TextView
+            android:id="@+id/eye0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/EyeTest0"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        
+        <TextView
+            android:id="@+id/eye1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/EyeTest1"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+        <!-- PLACEHOLDER IMAGE -->
+        
+        <ImageView 
+            
+            android:id="@+id/eyetestImage"
+            android:src="@drawable/eyestest"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"/>
+        
+        <!-- CHANGE NOT TO INFRINGE COPYRIGHT -->
+        
+        <TextView
+            android:id="@+id/eye2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/EyeTest2"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+       
+         <TextView
+            android:id="@+id/eye3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/EyeTest3"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+       
+        <TextView
+            android:id="@+id/eye4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/EyeTest4"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+            
+      
+       
+
+        <RadioGroup
+            android:id="@+id/radioGroupEyedness"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <RadioButton
+                android:id="@+id/radioELeft"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="I saw the object with my left eye" />
+
+            <RadioButton
+                android:id="@+id/radioERight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="I saw the object with my right eye" />
+
+            <RadioButton
+                android:id="@+id/radioENone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="I saw the object with both eyes" />
+        </RadioGroup>
+        
+        </LinearLayout>
+        <!-- END OF EYEDNESS  -->
+        
+        <!-- USERNAME SELECTION -->
+        
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   					 android:layout_width="wrap_content"
+    				android:layout_height="wrap_content"
+    				android:orientation="vertical" >
+        
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thank you for your time. You can now play the game"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        
+        <Button
+            android:id="@+id/submitButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit Data" />
+        
+        </LinearLayout>
+    </ViewFlipper>
+
+        
+    <!-- END OF USERNAME SELECTION -->
+       <!-- PREV/NEXT BUTTONS -->
+    <Button
+        android:id="@+id/nextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Proceed" />
+
+    <Button
+        android:id="@+id/prevButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back" />
+
+    <TextView
+        android:id="@+id/viewCounter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+<!-- END OF PREV/NEXT BUTTONS -->
+</LinearLayout>
+</ScrollView>

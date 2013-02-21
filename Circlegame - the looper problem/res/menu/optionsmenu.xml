@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/exitoption" android:title="Leave Game"></item>
+    <item android:id="@+id/resetinfo" android:title="Reset User Info"></item>
+    
+</menu>
